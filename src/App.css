@@ -1,0 +1,49 @@
+:root {
+  --main-blue-color: #1D2935;
+}
+
+
+
+
+.menu{
+  width: 12.5rem;
+  height: 100vh;
+  background-color: var(--main-blue-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+.links{
+  text-align: center;
+}
+.links p{
+  cursor: pointer;
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.links p:hover{
+  color: gray;
+}
+
+.logout{
+  color: #bab9b9;
+  font-weight: 300;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.3rem;
+  cursor: pointer;
+}
+.logout svg{
+  width: 1.3rem;
+}

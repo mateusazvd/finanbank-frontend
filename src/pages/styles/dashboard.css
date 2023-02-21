@@ -1,0 +1,144 @@
+
+.container{
+  display: flex;
+  background-color: #EEF1F9;
+}
+
+.dashboard{
+  overflow-y: scroll;
+  max-height: 100vh;
+}
+
+.dashboard::-webkit-scrollbar{
+  width: 0px;
+}
+.header-dashboard{
+  margin-left: 7rem;
+  margin-top: 3rem;
+}
+
+.header-dashboard h2{
+  font-weight:400;
+  padding: 10px;
+  border-left: 3px solid #0CA5E6 ;
+}
+
+.menu-actives{
+  display: flex;
+  margin-top: 10px;
+}
+.menu-actives span{
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+
+.green-icon{
+  width: 7px;
+  height: 7px;
+  background-color:rgb(5, 214, 5);
+  border-radius: 100px;
+  margin-right: 0.3rem;
+  
+}
+
+.red-icon{
+  width: 7px;
+  height: 7px;
+  background-color:rgb(214, 29, 5);
+  border-radius: 100px;
+  margin-right: 0.3rem;
+}
+
+.card_area{
+  display: flex;
+  margin-top: 15px;
+}
+
+.card{
+  min-width: 140px;
+  margin-left: 10px;
+  background-color:white;
+  height: 100px;
+  padding: 10px 15px;
+  border-radius: 12px;
+}
+
+.card h4{
+  font-weight: 600;
+  color: #121212fa;
+
+}
+
+.card p{
+  font-weight: 300;
+  color: #121212c5;
+  font-size: 13px;
+}
+
+.card h3{
+  margin-top: 15px;
+  font-weight: 500; 
+}
+
+.card .p-controle{
+  font-size: 14px;
+}
+
+#controle h4{
+  margin-bottom: 5px;
+}
+
+.orange{
+  color: orange;
+}
+
+.blue{
+  color: blue;
+}
+
+#controle div{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight:500;
+}
+
+.menu_filtros{
+  display: flex;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.137);
+}
+.menu_filtros span{
+  margin: 2px 8px;
+  color: rgba(0, 0, 0, 0.603);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.solicitacao-area{
+  margin: 40px 120px;
+}
+
+.headers-tabela{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 880px;
+  justify-content: space-around;
+}
+
+.headers-tabela p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.lista{
+  margin-top: 20px;
+}
